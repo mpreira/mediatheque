@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Médiathèque Symfony{% endblock %}
+
+{% block body %}
+    <div class="body">
+        <p>Bienvenue sur le site de la</p>
+        <h2 class="body-title">{{ block('title') }}</h2>
+
+        <div class="actions">
+            <a href="" class="box">
+                <i class="fas fa-user-plus fa-3x"></i>
+                <span>créer mon compte en ligne</span>
+            </a>
+            <a href="" class="box">
+                <i class="far fa-calendar-alt fa-3x"></i>
+                <span>consulter les événements de la médiathèque</span>
+            </a>
+            <a class="box">
+                <i class="fas fa-book fa-3x"></i>
+                <span>Trouver un livre, un cd, un dvd, une revue...</span>
+            </a>
+        </div>
+
+    </div>
+{% endblock %}
